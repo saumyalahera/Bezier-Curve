@@ -2,8 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-/*This is a vey simple script to draw a line between two points. Simple? Nah, let me add a twist.
-Now, what if you want a Bezeir curve. Wait, what? Yes. There are three bezier curves.
+/*There are three bezier curves.
 1. Linear Bezier Curve 		- B(t) = P0 + t(P1 – P0) = (1-t) P0 + tP1 , 0 < t < 1
 2. Quadratic Bezier Curve	- B(t) = (1-t)2P0 + 2(1-t)tP1 + t2P2 , 0 < t < 1
 3. Cubic Bezier Curve		- B(t) = (1-t)3P0 + 3(1-t)2tP1 + 3(1-t)t2P2 + t3P3 , 0 < t < 1
